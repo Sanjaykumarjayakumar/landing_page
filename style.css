@@ -1,1 +1,80 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 95%;
+  margin: 20px;
+  box-shadow: inset 5px 5px 50px;
+  
+}
 
+.five {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+.six {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.three a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.three a:hover {
+  color: #C06B3E;
+}
+
+.one{
+  height: 100vh;
+  background-image: url("hotel.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.one .two{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+.two h2{
+	font-size: 50px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.two p{
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: white;
+  padding: 12px 30px;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+
+}
+button:hover{
+	background-color: red;
+}
+nine{
+	background-color: white;
+}
